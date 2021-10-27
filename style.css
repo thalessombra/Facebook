@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+}
+ 
+ body {
+     margin: 0px;
+     padding: 0px;
+     background: lightgray;
+ }
+ 
+.container{ padding-top: 130px;
+    padding-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 980px;
+     margin: 0 auto;
+     display: grid;
+     grid-template-columns: 1.5fr 1fr;
+     align-items: center;
+     gap: 40px;
+
+
+ }
+ .logo{ height: 106px;
+    display: block;
+    max-width: 100%;
+    margin: -28px;
+
+ }
+ p{
+     text-align: center;
+ }
+
+ h2{
+     font-size: 28px;
+     font-weight: 400px;
+     color: black;
+     font-family:Helvetica, sans-serif;
+     line-height: 32px;
+ }
+form{ padding: 16px 16px 24px 16px;
+    background: white;
+    padding: 16px;
+    border-radius: 8px;
+    max-width: 400px;
+
+
+}
+body, input, button {
+    
+    font-family:Helvetica, sans-serif;
+
+}
+
+from a,input, button {
+    display: block;
+}
+input {  width: 100%;
+    margin-bottom: 12px;
+    padding: 16px;
+    border-radius: 6px;
+    border: 1 px solid black;
+
+
+}
+input[placeholder]{
+    font-family:Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+.entrar, .criar-conta { font-weight: bold;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    padding: 16px;
+    cursor: pointer;
+    text-align: center;
+
+
+
+}
+
+input::placeholder {
+    
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.397);
+    opacity: 0.6;
+
+}
+.entrar { 
+    background: #1877f2;
+    width: 100%;
+        font-size: 20px;
+
+
+}
+
+form a {
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    padding-bottom: 12px;
+    border-bottom: 1 px solid #dadde1;
+
+}
+
+ form a :hover {
+     text-decoration: underline;
+
+ }
+  .entrar:hover {
+      background: darkblue;
+  }
+
+.criar-conta {
+    font-size: 17px;
+    background: #49c530;
+    margin: 0 auto;
+    margin-top: 24px;
+
+
+}
+.criar-conta:hover {
+    background: rgb(14, 175, 14);
+}
+p > a {
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+p > a :hover {
+    text-decoration: underline;
+}
+footer {
+    font-size: 14px;
+    background: white;
+    color: #737373;
+    margin-left: -50px;
+    margin-right: -50px;
+    text-align: center;
+    height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+
+}
